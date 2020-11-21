@@ -11,6 +11,13 @@ var gateLoginRouter = require('./routes/gatekeeper_login_routes');
 var tenantLoginRouter = require('./routes/tenant_login_routes');
 var AmenitiesRouter = require('./routes/admin_amenities');
 
+/*var adminLoginRouter = require('./routes/admin_login_routes');
+var residenceLoginRouter = require('./routes/residence_login_routes');
+var gateLoginRouter = require('./routes/gatekeeper_login_routes');
+var tenantLoginRouter = require('./routes/tenant_login_routes');
+var AmenitiesRouter = require('./routes/admin_amenities');*/
+
+
 var app = express();
 
 // view engine setup
